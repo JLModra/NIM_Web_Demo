@@ -10,7 +10,7 @@ http.createServer(function(req,res){
         res.writeHead(200);
         res.end(data);
     });
-}).listen(8888);
+}).listen(8888, "106.2.36.127");
 console.log('Server running at http://127.0.0.1:8888/');
 // var express = require("express");
 // var app     = express();
