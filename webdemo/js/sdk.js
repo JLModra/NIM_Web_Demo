@@ -36,7 +36,8 @@ var SDKBridge = function (ctr,data) {
 		//控制台日志，上线时应该关掉
 		debug: true || { api: 'info', style: 'font-size:14px;color:blue;background-color:rgba(0,0,0,0.1)' },
         // appKey: 'fe416640c8e8a72734219e1847ad2547',//测试
-        appKey: '45c6af3c98409b18a84451215d0bdd6e',
+        //appKey: '45c6af3c98409b18a84451215d0bdd6e',
+        appKey: '1703fcc08ca12f49ec1488aaf000b7df', //my appkey
         account: userUID,
         token: sdktoken,
         //连接
