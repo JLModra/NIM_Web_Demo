@@ -70,7 +70,8 @@ var Login = {
 
 	requestLogin: function(account, pwd) {
 		setCookie('uid',account.toLocaleLowerCase());
-		setCookie('sdktoken',MD5(pwd));
+		//setCookie('sdktoken',MD5(pwd));
+		setCookie('sdktoken',pwd);
 		window.location.href = '/webdemo/main.html';
 			
 	},
